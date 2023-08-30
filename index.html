@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/x-icon" href="./img/icon.png">
+    <title>Time Left</title>
+</head>
+<body>
+    <div id="time">
+        <div class="circle" style="--clr:#fff;">
+            <div class="dots day_dot"></div>
+                <svg>
+                    <circle cx="70" cy="70" r="70"></circle>
+                    <circle cx="70" cy="70" r="70" id="dd"></circle>
+                </svg>
+            <div id="days"></div>
+        </div>
+
+        <div class="circle" style="--clr:#ff2872;">
+            <div class="dots hour_dot"></div>
+                <svg>
+                    <circle cx="70" cy="70" r="70"></circle>
+                    <circle cx="70" cy="70" r="70" id="hh"></circle>
+                </svg>
+            <div id="hours"></div>
+        </div>
+
+        <div class="circle" style="--clr:#fee800;">
+            <div class="dots min_dot"></div>
+                <svg>
+                    <circle cx="70" cy="70" r="70"></circle>
+                    <circle cx="70" cy="70" r="70" id="mm"></circle>
+                </svg>
+            <div id="mins"></div>
+        </div>
+        
+        <div class="circle" style="--clr:#04fc43;">
+            <div class="dots sec_dot"></div>
+                <svg>
+                    <circle cx="70" cy="70" r="70"></circle>
+                    <circle cx="70" cy="70" r="70" id="ss"></circle>
+                </svg>
+            <div id="secs"></div>
+        </div>
+    </div>
+
+    <h2 class="newYear">2024<br><span>Happy New Year</span></h2>
+    <script src="main.js"></script>
+</body>
+</html>
